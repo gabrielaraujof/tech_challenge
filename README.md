@@ -9,7 +9,7 @@ A landing page, and a page to show data coming from an API.
 
 ### UI Checklist
 
-- [ ] Create a React App using functional based components and hooks. No class based components, please.
+- [x] Create a React App using functional based components and hooks. No class based components, please.
 
 - [ ] Create 2 views ( pages ) using React Router.
 
