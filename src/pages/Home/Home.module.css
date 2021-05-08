@@ -1,0 +1,16 @@
+.Logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.LibraryCTA {
+  border: 0;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  background-color: #4db6ac;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: rgb(32, 33, 36);
+  cursor: pointer;
+}

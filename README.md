@@ -11,7 +11,7 @@ A landing page, and a page to show data coming from an API.
 
 - [x] Create a React App using functional based components and hooks. No class based components, please.
 
-- [ ] Create 2 views ( pages ) using React Router.
+- [x] Create 2 views ( pages ) using React Router.
 
 - [ ] Create a page that renders a table displaying a list songs coming from the API. Each row is a song, each column is a song attribute. 
  
