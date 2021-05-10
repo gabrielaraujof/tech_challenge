@@ -1,0 +1,53 @@
+.ScrollContainer {
+  width: 1280px;
+  height: 768px;
+  background-color: #fff;
+  overflow: scroll;
+}
+
+.GridRow {
+  display: inline-flex;
+  align-items: stretch;
+  min-width: 0;
+  white-space: nowrap;
+  font-size: 14pt;
+  color: #000;
+}
+
+.GridRow_First {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.GridRow_Last {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.GridRow_Item {
+  display: inline-flex;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  text-align: center;
+  width: 50px;
+}
+
+.SongName {
+  width: 400px;
+  font-size: 1.5em;
+}
+
+.Artist {
+  width: 200px;
+}
+
+.SongName, .Artist {
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Release, .PlayCount {
+  width: 150px;
+}
