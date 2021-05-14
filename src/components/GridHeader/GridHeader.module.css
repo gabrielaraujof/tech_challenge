@@ -1,0 +1,24 @@
+.Button {
+  padding: 0 1.5em;
+  border: none;
+  min-height: 2em;
+  font-size: 1em;
+  background: none;
+  cursor: pointer;
+}
+
+.Button.Button___Small {
+  width: 100px;
+}
+
+.Button.Button___Medium {
+  width: 150px;
+}
+
+.Button.Button___Large {
+  width: 200px;
+}
+
+.Button.Button___ExtraLarge {
+  width: 400px;
+}

@@ -7,10 +7,11 @@
 
 .GridRow {
   display: inline-flex;
-  align-items: stretch;
+  align-items: center;
+  border-bottom: 1px solid grey;
   min-width: 0;
-  white-space: nowrap;
   font-size: 14pt;
+  text-align: center;
   color: #000;
 }
 
@@ -25,11 +26,8 @@
 }
 
 .GridRow_Item {
-  display: inline-flex;
-  align-items: center;
-  border-bottom: 1px solid grey;
-  text-align: center;
-  width: 50px;
+  padding: 0 1em;
+  min-width: 80px;
 }
 
 .SongName {
